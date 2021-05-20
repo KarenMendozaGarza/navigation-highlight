@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+
+*Typefaces*: `Georgia`, `Sigmar One`
+- *Text sizes*: `3rem`, `1.875rem`, `1.125rem`, `.75rem`
+- *Colours:* `#2f2d13`, `#cc1465`, `#ffe500`, `#b20953`, `#b2a212`
+- *Line height:* `1.5`
+- *Paddings:* `.2em .5em .3em`, `0 .75em`, `.75em`
+- *Margins:* `.3em`
+- *Corner radius*: `4px`
