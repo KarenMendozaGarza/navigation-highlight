@@ -12,10 +12,10 @@ body {
   margin: 0;
 }
 
- img {
-   display: block;
-   width: 100%;
- }
+img {
+  display: block;
+  width: 100%;
+}
 
 main {
   padding: 0 .75em;
@@ -23,12 +23,13 @@ main {
 
 header {
   background-color: #ffe500;
+  padding-bottom: .25em;
 }
 
 footer {
   text-align: center;
   background-color: #ffe500;
-  font-size: .75rem;
+  padding: .75em;
 }
 
 h1 {
@@ -43,20 +44,20 @@ nav ul {
   list-style-type: none;
   padding-left: 0;
   text-align: center;
-  margin-top: 0;
+  margin: .3rem;
 }
 
 nav ul li {
   display: inline-block;
 }
 
-nav li a{
+nav li a {
   text-decoration: none;
   color: #fff;
   font-size: 1.125rem;
   background-color: #b2a212;
   border-radius: 4px;
-  padding: .5em .75em;
+  padding: .4em .5em;
 }
 
 h2 {
@@ -73,6 +74,10 @@ li a:hover {
   background-color: #cc1465;
 }
 
+.bold {
+  font-style: normal;
+  font-weight: bold;
+}
 
 /* *Typefaces*: `Georgia`, `Sigmar One`
 - *Text sizes*: `3rem`, `1.875rem`, `1.125rem`, `.75rem`
