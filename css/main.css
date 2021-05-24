@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,6 +10,66 @@ html {
 
 body {
   margin: 0;
+}
+
+ img {
+   width: 100%;
+ }
+
+main {
+  padding: 0 .75em;
+}
+
+header {
+  background-color: #ffe500;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffe500;
+  font-size: .75rem;
+}
+
+h1 {
+  margin: 0;
+  font-family: Sigmar One, sans-serif;
+  color: #b20953;
+  font-size: 3rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  background-color: #b2a212;
+  border-radius: 4px;
+  padding: .5em .75em;
+}
+
+h2 {
+  font-family: Sigmar One, sans-serif;
+  color: #b20953;
+  font-size: 1.875rem;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+li a:hover {
+  background-color: #cc1465;
 }
 
 
