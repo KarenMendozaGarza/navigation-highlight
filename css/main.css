@@ -13,6 +13,7 @@ body {
 }
 
  img {
+   display: block;
    width: 100%;
  }
 
@@ -32,7 +33,7 @@ footer {
 
 h1 {
   margin: 0;
-  font-family: Sigmar One, sans-serif;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 3rem;
   text-align: center;
@@ -59,7 +60,7 @@ nav li a{
 }
 
 h2 {
-  font-family: Sigmar One, sans-serif;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 1.875rem;
 }
@@ -73,10 +74,10 @@ li a:hover {
 }
 
 
-*Typefaces*: `Georgia`, `Sigmar One`
+/* *Typefaces*: `Georgia`, `Sigmar One`
 - *Text sizes*: `3rem`, `1.875rem`, `1.125rem`, `.75rem`
 - *Colours:* `#2f2d13`, `#cc1465`, `#ffe500`, `#b20953`, `#b2a212`
 - *Line height:* `1.5`
 - *Paddings:* `.2em .5em .3em`, `0 .75em`, `.75em`
 - *Margins:* `.3em`
-- *Corner radius*: `4px`
+- *Corner radius*: `4px` */
